@@ -3,6 +3,7 @@ package arrays
 import (
 	"fmt"
 	"strconv"
+	"strings"
 )
 
 // fixed-length numerical header (e.g. 004 means the next 4 characters form a string)
@@ -23,13 +24,13 @@ func Encode(strs []string) string {
 		return ""
 	}
 
-	var encoded string
+	var encoded strings.Builder
 	for _, s := range strs {
-		encoded += fmt.Sprintf(header, len(s))
-		encoded += s
+		fmt.Fprintf(&encoded, header, len(s))
+		encoded.WriteString(s)
 	}
 
-	return encoded
+	return encoded.String()
 }
 
 // Decode turns a string produced by encode back into the original list.
