@@ -1,8 +1,9 @@
 package arrays
 
 import (
-	"slices"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestTopKFrequent(t *testing.T) {
@@ -25,13 +26,8 @@ func TestTopKFrequent(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			got := topKFrequent(tt.nums, tt.k)
 
-			// The problem allows the answer in any order, so compare sorted.
-			slices.Sort(got)
-			slices.Sort(tt.want)
-
-			if !slices.Equal(got, tt.want) {
-				t.Errorf("topKFrequent(%v, %d) = %v, want %v", tt.nums, tt.k, got, tt.want)
-			}
+			// The problem allows the answer in any order.
+			assert.ElementsMatch(t, tt.want, got)
 		})
 	}
 }
