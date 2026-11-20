@@ -12,7 +12,7 @@ const (
 	headerLen = 3
 )
 
-// encode and decode solve NeetCode "Encode and Decode Strings"
+// Encode and Decode solve NeetCode "Encode and Decode Strings"
 // https://neetcode.io/problems/string-encode-and-decode/question
 //
 // Design an algorithm to encode a list of strings to a single string, and
