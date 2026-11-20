@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-// fixed-format string separator (e.g. 4# means the 4 characters following # form a string)
+// fixed-length numerical header (e.g. 004 means the next 4 characters form a string)
 const (
 	header = "%03d"
 	headerLen = 3
