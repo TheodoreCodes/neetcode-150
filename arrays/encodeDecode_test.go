@@ -60,7 +60,7 @@ func TestEncodeDecode(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got := decode(encode(tt.strs))
+			got := Decode(Encode(tt.strs))
 
 			// nil and an empty slice are both valid for an empty list.
 			if len(tt.strs) == 0 {
@@ -74,5 +74,5 @@ func TestEncodeDecode(t *testing.T) {
 
 // An empty list and a list holding one empty string must not collide.
 func TestEncodeDistinguishesEmptyListFromEmptyString(t *testing.T) {
-	assert.NotEqual(t, encode([]string{}), encode([]string{""}))
+	assert.NotEqual(t, Encode([]string{}), Encode([]string{""}))
 }
