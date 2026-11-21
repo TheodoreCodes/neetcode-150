@@ -1,6 +1,6 @@
 # neetcode
 
-My Go solutions to [NeetCode](https://neetcode.io) practice problems, each with tests.
+My Go solutions to [NeetCode 150](https://neetcode.io/practice/practice/neetcode150) practice problems, each with tests.
 
 ## Solutions
 
