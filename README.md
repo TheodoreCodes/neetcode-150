@@ -9,6 +9,7 @@ My Go solutions to [NeetCode 150](https://neetcode.io/practice/practice/neetcode
 | Problem | Solution | Tests |
 | --- | --- | --- |
 | Encode and Decode Strings | [encodeDecode.go](arrays/encodeDecode.go) | [encodeDecode_test.go](arrays/encodeDecode_test.go) |
+| Longest Consecutive Sequence | [longestConsecutive.go](arrays/longestConsecutive.go) | [longestConsecutive_test.go](arrays/longestConsecutive_test.go) |
 | Products of Array Except Self | [productExceptSelf.go](arrays/productExceptSelf.go) | [productExceptSelf_test.go](arrays/productExceptSelf_test.go) |
 | Top K Elements in List | [topKFrequency.go](arrays/topKFrequency.go) | [topKFrequency_test.go](arrays/topKFrequency_test.go) |
 | Valid Sudoku | [validSudoku.go](arrays/validSudoku.go) | [validSudoku_test.go](arrays/validSudoku_test.go) |
