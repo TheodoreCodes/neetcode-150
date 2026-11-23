@@ -14,6 +14,12 @@ My Go solutions to [NeetCode 150](https://neetcode.io/practice/practice/neetcode
 | Top K Elements in List | [topKFrequency.go](arrays/topKFrequency.go) | [topKFrequency_test.go](arrays/topKFrequency_test.go) |
 | Valid Sudoku | [validSudoku.go](arrays/validSudoku.go) | [validSudoku_test.go](arrays/validSudoku_test.go) |
 
+### Two Pointers (`twoPointers/`)
+
+| Problem | Solution | Tests |
+| --- | --- | --- |
+| Is Palindrome | [isPalindrome.go](twoPointers/isPalindrome.go) | [isPalindrome_test.go](twoPointers/isPalindrome_test.go) |
+
 Each solution file has a doc comment with the problem statement, constraints and approach.
 
 ## Running the tests
