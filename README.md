@@ -20,6 +20,12 @@ My Go solutions to [NeetCode 150](https://neetcode.io/practice/practice/neetcode
 | --- | --- | --- |
 | Is Palindrome | [isPalindrome.go](twoPointers/isPalindrome.go) | [isPalindrome_test.go](twoPointers/isPalindrome_test.go) |
 
+### Sliding Window (`slidingWindow/`)
+
+| Problem | Solution | Tests |
+| --- | --- | --- |
+| Buy and Sell Crypto | [maxProfit.go](slidingWindow/maxProfit.go) | [maxProfit_test.go](slidingWindow/maxProfit_test.go) |
+
 Each solution file has a doc comment with the problem statement, constraints and approach.
 
 ## Running the tests
