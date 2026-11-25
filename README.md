@@ -26,6 +26,12 @@ My Go solutions to [NeetCode 150](https://neetcode.io/practice/practice/neetcode
 | --- | --- | --- |
 | Buy and Sell Crypto | [maxProfit.go](slidingWindow/maxProfit.go) | [maxProfit_test.go](slidingWindow/maxProfit_test.go) |
 
+### Binary Search (`binarySearch/`)
+
+| Problem | Solution | Tests |
+| --- | --- | --- |
+| Binary Search | [search.go](binarySearch/search.go) | [search_test.go](binarySearch/search_test.go) |
+
 Each solution file has a doc comment with the problem statement, constraints and approach.
 
 ## Running the tests
